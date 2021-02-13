@@ -1,0 +1,33 @@
+/* Applying 0 margin and padding everywhere */
+body{
+    margin: 0;
+    padding:0;
+}
+/* Styling the Header and NavBar */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 167, 153);
+}
+header h1 a{
+    color: darkolivegreen;
+    text-decoration: none;
+    font-size: larger;
+}
+header h1 a:hover{
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:0 25px 0 0; 
+    font-size: 30px;
+    color: darkolivegreen;
+}
+nav ul li a:hover{
+    color: white;
+}
