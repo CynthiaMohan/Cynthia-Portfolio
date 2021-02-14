@@ -54,16 +54,20 @@ nav ul li a:hover{
     text-align: center;
 }
 /* Styling the about me section */
-section{
+.aboutme{
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 50px;
+    padding: 50px 0 0 0;
 }
 .title{
+    margin:0;
+    width: 20%;
     font-size: 25px;
     padding-right: 20px;
     border-right: 3px solid #002d10;
+    text-align: right;
 }
 .content{
     font-size: 20px;
@@ -77,4 +81,65 @@ section{
     border-radius: 15%;
 }
 
-/* Styling Projects */
+/* Styling Work Section*/
+.work{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 50px 0 0 0;
+    background-color: #ebfabe;
+}
+.title2{
+    margin:0;
+    width:7.5%;
+    font-size: 25px;
+    padding-right: 20px;
+    border-right: 3px solid #002d10;
+    text-align: right;
+}
+
+.work-content{
+    width:90%;
+}
+
+
+
+/*Styling Projects */
+.firstproject img{
+    width: 1000px;
+    margin-left: 0;
+    padding-left: 0;
+    opacity: 0.6;
+    padding-left: 30px;
+}
+.firstproject img:hover{
+    opacity: 1;
+}
+.project img{
+    width:600px;
+    height: auto;
+    opacity: 0.6;
+    padding-left: 30px;
+    
+}
+.project img:hover{
+    opacity:1;
+}
+.tile{
+    width: 10%;
+    background-color: #a7b776;
+    border:3px solid #002d10;
+    padding-left: 0px;
+    position: relative;
+    top: -100px;
+    left: 30px;
+}
+.tile h4{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.col{
+    
+}
