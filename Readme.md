@@ -4,7 +4,7 @@ To be viewed by potential employers inorder that they can review samples of my w
 ### View my Portfolio Here:
 [Portfolio](https://cynthiamohan.github.io/Cynthia-Portfolio/)
 ### Mock-up
-![Wireframe Diagram](../Assets/images/wireframe for portfolio)
+![Wireframe Diagram](./Assets/images/wireframe for portfolio.png)
 ### Technologies Used
 * HTML
 * CSS
