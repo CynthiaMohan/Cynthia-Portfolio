@@ -85,10 +85,11 @@ nav ul li a:hover{
 .work{
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
     width: 100%;
     margin-bottom: 50px;
     padding: 50px 0 0 0;
-    background-color: #ebfabe;
+    /* background-color: #ebfabe; */
 }
 .title2{
     margin:0;
@@ -102,14 +103,16 @@ nav ul li a:hover{
 .work-content{
     width:90%;
 }
-
+.project, .col{
+    margin: 0;
+    padding: 0;
+}
 
 
 /*Styling Projects */
 .firstproject img{
-    width: 1000px;
+    width: 75%;
     margin-left: 0;
-    padding-left: 0;
     opacity: 0.6;
     padding-left: 30px;
 }
@@ -117,17 +120,42 @@ nav ul li a:hover{
     opacity: 1;
 }
 .project img{
-    width:600px;
-    height: auto;
+    width:500px;
+    height: 320px;
     opacity: 0.6;
-    padding-left: 30px;
+    padding-left: 0px;
     
 }
 .project img:hover{
     opacity:1;
 }
-.tile{
+.firsttile{
     width: 10%;
+    background-color: #a7b776;
+    border:3px solid #002d10;
+    padding-left: 0px;
+    position: relative;
+    top: -100px;
+    left: 30px;
+}
+.firsttile h4{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:stretch;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.col{
+    padding: 0 30px 0 30px;
+}
+.tile{
+    width: 30%;
     background-color: #a7b776;
     border:3px solid #002d10;
     padding-left: 0px;
@@ -139,7 +167,4 @@ nav ul li a:hover{
     margin: 0;
     padding: 0;
     font-size: 20px;
-}
-.col{
-    
 }
