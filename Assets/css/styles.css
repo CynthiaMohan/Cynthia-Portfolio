@@ -210,3 +210,35 @@ footer{
     background-color: rgb(167, 163, 163);
     color: honeydew;
 }
+
+/* Adding Media Queries */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+    .profilepic{
+        flex: 1 100%;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  }
