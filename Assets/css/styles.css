@@ -12,6 +12,8 @@ header{
     background-image: url(../images/hero3.jpg);
     background-position: center;
     background-size: cover;
+    position: sticky;
+    top: 0;
 }
 header h1 a{
     color: #a9af93;
@@ -197,4 +199,14 @@ nav ul li a:hover{
 }
 .contactdetails ul li a:hover{
     color: blue;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background-color: rgb(167, 163, 163);
+    color: honeydew;
 }
