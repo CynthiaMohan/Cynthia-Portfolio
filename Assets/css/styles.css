@@ -79,6 +79,7 @@ nav ul li a:hover{
     /* border:3px solid #002d10; */
     box-shadow: 5px 5px #707b33;
     border-radius: 15%;
+    flex-wrap: wrap;
 }
 
 /* Styling Work Section*/
@@ -161,10 +162,39 @@ nav ul li a:hover{
     padding-left: 0px;
     position: relative;
     top: -100px;
-    left: 30px;
+    left: 0px;
 }
 .tile h4{
     margin: 0;
     padding: 0;
     font-size: 20px;
+}
+
+/* Styling the Contacts section */
+.details{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.contactdetails{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+.contactdetails ul li{
+   display: inline;
+   font-size: 25px;
+   padding-left: 50px;
+}
+.contactdetails ul li a{
+    font-size: 25px;
+    padding:0px;
+    color: #333;
+}
+.contactdetails ul li a:hover{
+    color: blue;
 }
