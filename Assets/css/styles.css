@@ -19,12 +19,12 @@ header{
     /* top: 0; */
 }
 header h1 a{
-    color: #a9af93;
+    color: #002d10;
     text-decoration: none;
     font-size: larger;
 }
 header h1 a:hover{
-    color: white;
+    color: blue;
 }
 nav ul li{
     list-style: none;
@@ -37,7 +37,9 @@ nav ul li a{
     color: #002d10;
 }
 nav ul li a:hover{
-    color: white;
+    color: blue;
+    background-color: #093c139e;
+    
 }
 
 /* Hero */
@@ -113,18 +115,20 @@ nav ul li a:hover{
 .work-content{
     width:90%;
 }
-.project, .col{
+.mycol{
     margin: 0;
     padding: 0;
 }
-
+.project{
+    margin-left: 30px;
+} 
 
 /*Styling Projects */
 .firstproject img{
-    width: 75%;
+    width: 100%;
     margin-left: 0;
     opacity: 0.6;
-    padding-left: 30px;
+    padding-left: auto;
 }
 .firstproject img:hover{
     opacity: 1;
@@ -140,18 +144,21 @@ nav ul li a:hover{
     opacity:1;
 }
 .firsttile{
-    width: 10%;
+    width: 40%;
     background-color: #a7b776;
     border:3px solid #002d10;
     padding-left: 0px;
     position: relative;
     top: -100px;
-    left: 30px;
+    left: auto;
 }
 .firsttile h4{
     margin: 0;
     padding: 0;
     font-size: 20px;
+}
+.item-title{
+    font-weight: 13px;
 }
 .myrow{
     display: flex;
@@ -165,7 +172,7 @@ nav ul li a:hover{
     padding: 0 30px 0 30px;
 }
 .tile{
-    width: 30%;
+    width: fit-content;
     background-color: #a7b776;
     border:3px solid #002d10;
     padding-left: 0px;
@@ -220,6 +227,23 @@ footer{
 .contacts{
     width: 10%;
     
+}
+.more-projects{
+    width: 100%;
+    border: 1px solid black;
+   
+}
+.more-projects a{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.more-projects a:hover{
+    color: blue;
+    background-color: #093c139e;
 }
 
 /* Adding Media Queries */
