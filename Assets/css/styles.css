@@ -5,7 +5,8 @@ body{
     font-family: monospace;
 }
 .container{
-    background-color: #c3d1b847;
+    background-color: #82c7ff48;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 /* Styling the Header and NavBar */
 header{
@@ -19,7 +20,7 @@ header{
     /* top: 0; */
 }
 header h1 a{
-    color: #002d10;
+    color: #050706;
     text-decoration: none;
     font-size: larger;
 }
@@ -34,17 +35,18 @@ nav ul li a{
     text-decoration: none;
     padding:0 25px 0 0; 
     font-size: 30px;
-    color: #002d10;
+    color: #050706;
 }
 nav ul li a:hover{
     color: blue;
-    background-color: #093c139e;
+  
     
 }
 
 /* Hero */
 .hero{
-    background-image: url(../images/hero3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/wallpaper2you_285177.jpg);
+
     width: 100%;
     height: 600px;
     background-position: center;
@@ -55,7 +57,8 @@ nav ul li a:hover{
     position: absolute;
     right:800px;
     top: 150px;
-    color: #002d10;
+    /* color: #002d10; */
+    color: rgba(255, 250, 240, 0.644);
     font-size: 20px;
     padding: 25px;
     text-align: center;
@@ -84,7 +87,8 @@ nav ul li a:hover{
     width: 200px;
     height: 200px;
     /* border:3px solid #002d10; */
-    box-shadow: 5px 5px #707b33;
+    background-image: linear-gradient();
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.534);
     border-radius: 15%;
     flex-wrap: wrap;
     opacity:0.6;
@@ -217,12 +221,13 @@ nav ul li a:hover{
 
 
 footer{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: 20px;
-    background-color: #093c139e;
-    color: honeydew;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 .contacts{
     width: 10%;
@@ -243,7 +248,7 @@ footer{
 }
 .more-projects a:hover{
     color: blue;
-    background-color: #093c139e;
+    background-color: rgb(0, 255, 255);
 }
 
 /* Adding Media Queries */
