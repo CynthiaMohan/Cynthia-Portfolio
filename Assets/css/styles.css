@@ -4,6 +4,9 @@ body{
     padding:0;
     font-family: monospace;
 }
+.container{
+    background-color: #c3d1b847;
+}
 /* Styling the Header and NavBar */
 header{
     display: flex;
@@ -211,8 +214,12 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     font-size: 20px;
-    background-color: rgb(167, 163, 163);
+    background-color: #093c139e;
     color: honeydew;
+}
+.contacts{
+    width: 10%;
+    
 }
 
 /* Adding Media Queries */
