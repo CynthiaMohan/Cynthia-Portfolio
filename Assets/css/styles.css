@@ -149,8 +149,8 @@ nav ul li a:hover{
 }
 .firsttile{
     width: 40%;
-    background-color: #a7b776;
-    border:3px solid #002d10;
+    background-color: #00b3ffed;
+    border:3px solid black;
     padding-left: 0px;
     position: relative;
     top: -100px;
@@ -177,8 +177,8 @@ nav ul li a:hover{
 }
 .tile{
     width: fit-content;
-    background-color: #a7b776;
-    border:3px solid #002d10;
+    background-color: #00b3ffed;
+    border:3px solid black;
     padding-left: 0px;
     position: relative;
     top: -100px;
@@ -249,6 +249,12 @@ footer{
 .more-projects a:hover{
     color: blue;
     background-color: rgb(0, 255, 255);
+}
+.repo{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    padding-left: 5px;
 }
 
 /* Adding Media Queries */
