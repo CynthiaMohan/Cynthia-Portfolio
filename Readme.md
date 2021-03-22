@@ -8,3 +8,5 @@ To be viewed by potential employers inorder that they can review samples of my w
 ### Technologies Used
 * HTML
 * CSS
+* Javascript
+* Bootstrap
