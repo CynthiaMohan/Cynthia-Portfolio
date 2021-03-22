@@ -266,6 +266,9 @@ footer{
 
 /* Adding Media Queries */
 @media screen and (max-width: 980px) {
+    .container{
+        width: 100%;
+    }
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -287,11 +290,12 @@ footer{
     }
 
     .profilepic{
-        flex: 1 100%;
+        display: none;
     }
     .title2{
         justify-content: center;
         border: 0;
+        
         text-align: center;
     }
     .aboutme{
@@ -314,7 +318,12 @@ footer{
         justify-content: center;
     }
   
-  
+  .tile h4,.firsttile h4{
+      font-size: x-small;
+  }
+  .repo{
+      font-size: x-small;
+  }
     footer h2, footer div {
       text-align: center;
       width: 100%;
@@ -324,6 +333,12 @@ footer{
     }
     .coolquote{
         width: 100%;
+        justify-content: center;
+    }
+    .contactdetails{
+        list-style:square ;
+    }
+    .work,.aboutme{
         justify-content: center;
     }
   }
